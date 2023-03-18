@@ -1,0 +1,227 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #2C3333;
+    background-size: cover;
+    background-position: right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 8% 0 8%;
+    height: 50px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color:white;
+    
+}
+.logo{
+    width: 15%;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color:black;
+
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-family:Comic Sans MS;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:gray;
+    transition: .4s;
+}
+.shortinfo{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: white;
+    transform: translateY(-50%s);
+    letter-spacing: 3px;
+}
+h5{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+h3{
+    font-size:22px;
+}
+.pfpic{
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    border-radius: 80px;
+    box-shadow: 20px 20px 15px black;
+}
+span{
+    color:gray;
+}
+
+
+/*second section*/
+
+.about{
+width: 100%;
+padding: 100px 0px;
+background-color: #2C3333;
+background-size: cover;
+color:white;
+}
+.about img{
+    height: auto;
+    width: 450px;
+    border-radius: 100px;
+    margin-left:30px;
+    box-shadow: 20px 20px 15px black;
+}
+.base{
+    width: 1300px;
+    max-width: 95%;
+    margin-top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.fordatext{
+    width: 500px;
+
+}
+.fordatext h2{
+    margin-bottom: 20px;
+    font-size: 70px;
+    text-transform: capitalize;
+    color: white;
+}
+.fordatext h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color:gray;
+    letter-spacing: 8px;
+    
+}
+.fordatext p{
+    color:#A5C9CA;
+    font-size: 21px;
+    letter-spacing: 5px;
+}
+
+/* Third section skills*/
+
+.service{
+    background-color:#2C3333;
+    width: 100%;
+    padding: 50px 0px;
+}
+.title{
+    color: gray;
+    font-size: 60px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 370px;
+    width: 330px;
+    padding: 20px 35px;
+    background: #E7F6F2;
+    border-radius: 30px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 20px 20px 15px black;
+    
+}
+.card i{
+    font-size:60px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:#395B64;
+    
+}
+h6{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/*4th section*/
+.fthtitle{
+    background-color: #2C3333;
+    padding-top: 40px;
+}
+.fthtitle h3{
+    text-align: center;
+    font-size: 60px;
+    color: gray;
+}
+.mygallery{
+    margin-left: 10%;
+}
+.mygallery img{
+    width: 350px;
+    height: 500px; 
+    border-radius:50px;
+    box-shadow: 20px 20px 15px black;
+}
+/* 5th section*/
+
+.contact{
+    background-color: #2C3333;
+}
+.contact h2{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: gray;
+}
+.text{
+    text-align: center;
+    padding-top: 70px;
+    background: #E7F6F2;
+    display: block; 
+    width:50% ;
+    margin-left:25% ;
+    font-size: 30px;
+    border-radius:30px ;
+    box-shadow: 20px 20px 15px black;
+}
+.icons {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.icons i{
+    color:white;
+    padding-bottom: 50px;
+}
